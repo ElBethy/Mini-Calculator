@@ -1,0 +1,38 @@
+*{  
+    margin:5px;
+    padding:0;
+    border-radius: none;
+}
+
+.first-input, .second-input{
+    width:40%;
+    display:flex;
+    height: 22px;
+    border-radius:.5em;
+    font-size: large;
+    text-align: center;
+    
+}
+
+.sum-option{
+      font-size:large;
+      text-align: center;
+      padding-inline-start: 10px;
+}
+
+.btn1{
+      height: 22px;
+      width: 26%;
+      font-size: medium;
+}
+
+.error {
+    color:  red;
+    font-size: large;
+}  
+
+.display{
+      font-size: large;
+      text-align: left;
+      padding-inline-start: 35px;
+}

@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Mini Calculator</title>
+  </head>
+  <body>
+    <h1>Mini Calculator</h1>
+    <div class="container">
+      <input
+        type="text"
+        name=""
+        id=""
+        title="enter a number"
+        class="first-input"
+      />
+
+      <select name="" id="" class="sum-option" title="select an operator">
+        <option value="input" selected disabled>Select Options</option>
+        <option value="+">+</option>
+        <option value="-">-</option>
+        <option value="*">*</option>
+        <option value="/">/</option>
+      </select>
+
+      <input
+        type="text"
+        name=""
+        id=""
+        title="enter a number"
+        class="second-input"
+      />
+
+      <button class="btn1">Calculate</button>
+      <br />
+      <p class="display"></p>
+      <p class="error"></p>
+    </div>
+
+    <script src="./arithmetic.js"></script>
+    <script src="./theDom.js"></script>
+  </body>
+</html>
